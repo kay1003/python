@@ -15,8 +15,8 @@ def demo(text :str, temp1 :int, temp2):
 
 # 按装订区域中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    # etf_analyze_investment("515450")
+    etf_analyze_investment("515450")
     # etf_analyze_investment(symbol="159545")
 
-    stock_analyze_investment(symbol="09618")
+    # stock_analyze_investment(symbol="09618")
 
