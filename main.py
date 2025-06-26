@@ -1,7 +1,7 @@
-# 这是一个示例 Python 脚本。
+import datetime
 
-# 按 Shift+F10 执行或将其替换为您的代码。
-# 按 双击 Shift 在所有地方搜索类、文件、工具窗口、操作和设置。
+from etf_analyzer import etf_analyze_investment
+from stock_analyzer import stock_analyze_investment
 
 
 def print_hi(name):
@@ -15,7 +15,8 @@ def demo(text :str, temp1 :int, temp2):
 
 # 按装订区域中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    print_hi('kang');
-    demo("kang", 2,3);
+    # etf_analyze_investment("515450")
+    # etf_analyze_investment(symbol="159545")
 
-# 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
+    stock_analyze_investment(symbol="09618")
+
